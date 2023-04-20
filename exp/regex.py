@@ -8,3 +8,5 @@ template = "{name} has visited this {temple_name} temple."
 print(template.split('{')[-1].split('}')[0])
 for e in re.finditer('{[a-z_]+}', template):
     print(e)
+
+print("re")
