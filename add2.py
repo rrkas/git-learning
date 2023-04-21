@@ -3,4 +3,4 @@ b = int(input())
 
 print(a + b)
 
-print("added in remote directly")
+print("added in remote directly...")
